@@ -81,30 +81,3 @@ for thread in threads:
 
 
 
-#print(html.split('\n')[0].split('traitType"')[1])
-
-# close web browser
-
-
-
-
-
-import webbrowser
-
-url = 'https://opensea.io/assets/0x4e76c23fe2a4e37b5e07b5625e17098baab86c18/551'
-
-# Open URL in a new tab, if a browser window is already open.
-#webbrowser.open_new_tab(url)
-
-# Open URL in new window, raising the window if possible.
-#webbrowser.open_new(url)
-
-#import dryscrape
-
-#search_term = 'dryscrape'
-
-# set up a web scraping session
-#sess = dryscrape.Session(base_url = 'https://opensea.io/')
-
-#get scource code of the page
-#page = sess.visit('/assets/0x4e76c23fe2a4e37b5e07b5625e17098baab86c18/551')
